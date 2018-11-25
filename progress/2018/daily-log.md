@@ -14,10 +14,6 @@
 
 * Fashionbiz20.
 
-### Day 17 − October 17, 2018
+### Day 25 − November 25, 2018
 
-* Fashionbiz20.
-
-### Day 18 − October 18, 2018
-
-* Fashionbiz20.
+* Learning how to use Visual Studio Code & Git
