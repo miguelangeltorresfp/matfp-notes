@@ -1,0 +1,3 @@
+# CONIFER LIBRARY PLUGIN - MADE BY SITECRAFTING
+
+* OFFICIAL DOCS [LINK](https://coniferplug.in/)
