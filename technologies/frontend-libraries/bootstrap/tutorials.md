@@ -6,6 +6,10 @@
 
   * hayanisaid/bootstrap4-website - GITHUB - [LINK](https://github.com/hayanisaid/bootstrap4-website)
 
+* How to build a working Bootstrap contact form - [LINK](https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form)
+
+* How To Create Your Custom Bootstrap Theme - [LINK](https://levelup.gitconnected.com/create-your-bootstrap-theme-4228aca9117a)
+
 ## AFFIX
 
 * Undestanding Bootstrap Affix Scrollspy

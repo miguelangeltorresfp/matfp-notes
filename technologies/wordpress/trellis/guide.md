@@ -62,7 +62,7 @@ git read-tree --prefix=site/web/app/themes/sage -u sage/master
 git commit -m "add sage subtree"
 ```
 
-4 - Desde el directorio "site" -> `compsoser install`
+4 - Desde el directorio "site" -> `composer install`
   
 * Antes hay que instalar PHP y Composer
 * [LINK](http://kizu514.com/blog/install-php7-and-composer-on-windows-10/)
@@ -86,6 +86,8 @@ git commit -m "add sage subtree"
 
 11 - Change Hyper-V to Off - `bcdedit /set hypervisorlaunchtype off` - to work with Virtualbox - Vagrant
 
+* Ver notas en OS/windows/Hyper-V.md
+
 12 - Implementar todo el tema de seguridad antes de hacer commit para no subir las contraseñas sin encriptar al repositorio.
 
-13 - Hacer commit para poder luego empezar con el proceso de deploy.
+13 - Hacer commit para poder luego empezar con el proceso de provision.

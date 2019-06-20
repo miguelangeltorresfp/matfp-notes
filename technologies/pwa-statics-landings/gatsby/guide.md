@@ -2,7 +2,7 @@
 
 * Install Gatsby Command Line - `npm install --global gatsby-cli`
 
-* Install Starter Site - 
+* Install Starter Site
 
   * `gatsby new [SITE_DIRECTORY_NAME] [URL_OF_STARTER_GITHUB_REPO]`
   * `gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`
@@ -12,6 +12,7 @@
 * `cd hello-world`
 
 * Launch local server for development - `gatsby develop`
+  * `gatsby develop --host=0.0.0.0`
 
 * Build the site - `gatsby build`
 

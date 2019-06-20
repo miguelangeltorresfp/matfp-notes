@@ -1,0 +1,4 @@
+# GATSBY GRAPHIQL GUIDE
+
+* CTRL + SPACE ( SHIFT + SPACE ) - Autocomplete
+* CTRL + ENTER - QUERY

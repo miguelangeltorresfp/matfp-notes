@@ -29,3 +29,7 @@
 ## MORE TUTORIALES
 
 * How I made my portfolio website blazing fast with Gatsby - [LINK](https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671)
+
+## Building a Static Blog using Gatsby and Strapi
+
+* [LINK](https://blog.strapi.io/building-a-static-website-using-gatsby-and-strapi/)

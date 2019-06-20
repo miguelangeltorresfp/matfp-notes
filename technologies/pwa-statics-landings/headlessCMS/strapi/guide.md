@@ -1,0 +1,2 @@
+# STRAPI GUIDE
+
