@@ -75,9 +75,13 @@ The container ID is the hostname that the container displayed.
 * `docker container ls -aq`
   Lists all the containers in quiet mode
 * `docker ps`  
-  Lists all the running containers
+  Lists all the running containers and their names
 * `docker ps -a`  
   Lists all containers, stopped or running
+* `docker stop container-id`
+  Stop one or more running containers
+* * `docker kill container-id`
+  Kill one or more running containers
 
 ### Automatically delete containers when they exit
 
@@ -95,8 +99,15 @@ The container ID is the hostname that the container displayed.
 
 * `docker exec -it <name\> <command\>`
 
-### BUILD AN IMAGE
+* `docker exec -it container_name sh`
+
+## BUILD FROM A DOCKERFILE
+
+* `docker build -t hello-world`
+
+## BUILD AN IMAGE
 
 * `docker image build --tag DOCKERID/<application_name\>:<version\> .`  
   `docker image build --tag $DOCKERID/linux_tweet_app:1.0 .`
   *DockkerID* allow us to store it on Docker Hub
+

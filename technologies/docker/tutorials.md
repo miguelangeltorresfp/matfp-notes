@@ -12,3 +12,5 @@
 * Official Documentation - Get Started - [LINK](https://docs.docker.com/get-started/)
 
 * Docker Curriculum - Simple - [LINK](https://docker-curriculum.com/)
+
+* How to create a full stack React/Express/MongoDB app using Docker [LINK](https://medium.freecodecamp.org/create-a-fullstack-react-express-mongodb-app-using-docker-c3e3e21c4074)

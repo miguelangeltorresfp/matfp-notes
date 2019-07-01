@@ -9,3 +9,5 @@
 
 * Off With Their Heads: How to Build a Headless WordPress to Manage Content [LINK](https://medium.freecodecamp.org/off-with-their-heads-building-a-headless-wordpress-to-manage-content-bb04e6b2a792)
   * [GITHUB](https://github.com/DrewDahlman/headless-wordpress)
+
+* Building Mobile Apps Using React Native And WordPress - [LINK](https://www.smashingmagazine.com/author/muhammad-muhsin/)

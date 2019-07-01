@@ -23,3 +23,5 @@
 ## Manorisms - YOUTUBE - Add ESLint & Prettier to VS Code for a Create React App - [LINK](https://www.youtube.com/watch?v=bfyI9yl3qfE)
 
 ## Using Prettier with VS Code and Create React App - Good - [LINK](https://medium.com/technical-credit/using-prettier-with-vs-code-and-create-react-app-67c2449b9d08)
+
+## ESLint + Prettier For a Consistent React Codebase - [LINK](https://blog.gojekengineering.com/eslint-prettier-for-a-consistent-react-codebase-eaa673debb1d)
