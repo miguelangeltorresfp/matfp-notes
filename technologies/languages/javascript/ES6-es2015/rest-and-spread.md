@@ -62,3 +62,7 @@ const a = [1, 2, 3, 4, 5]
 const [first, second] = a
 const [first, second, , , fifth] = a
 ```
+
+# videotutoriales
+...spread operator and rest operator - Beau teaches JavaScript - [LINK](https://www.youtube.com/watch?v=iLx4ma8ZqvQ)
+Aprendiendo JavaScript: Entendiendo el Spread Operator en Arrays - [LINK](https://www.youtube.com/watch?v=K77OCybbv24)

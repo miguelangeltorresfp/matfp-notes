@@ -51,6 +51,8 @@ git add .
 git push -u origin master
 ```
 
+* Removing remote - `git remote remove origin`
+
 ---
 
 ## Visualizing branch topology

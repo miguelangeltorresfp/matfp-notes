@@ -10,3 +10,8 @@
 * Iniciar Ubuntu ( sobre WSL, no vale meter la contraseña con copy paste, es la misma de LastPass ) y luego:
   *  `sudo service redis-server start`
   *  `sudo service redis-server stop`
+
+* Haciendo del video-tutorial ( Udemy Course ) de Stephen Grieder sobre docker, docker-compose, AWS & Kubernetes, aprendí a usar redis dentro de un container.
+  - docker run redis
+  - docker exec -it <container-id> redis-cli
+  - docker exec -it <container-id> sh

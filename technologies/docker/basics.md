@@ -9,7 +9,21 @@ There are different ways to use containers. These include:
 * `docker Info`
 * `docker container --help`
 
+### CREATE
+
+`docker create [image-name]`
+
+### START
+
+`docker start <id or name\>`
+
+`docker start -a <id or name\>` - Attach and printed out to the host terminal
+
 ### RUN
+
+* Por defecto muestra ( log ) toda la información dentro del contenedor, con start hay que poner -a
+
+* docker run = docker create + docker start
 
 * **To run a single task:** This could be a shell script or a custom app.  
 * **Interactively:** This connects you to the container similar to the way you SSH into a remote server.
@@ -79,8 +93,10 @@ The container ID is the hostname that the container displayed.
 * `docker ps -a`  
   Lists all containers, stopped or running
 * `docker stop container-id`
-  Stop one or more running containers
-* * `docker kill container-id`
+  Stop one or more running containers and give 10 seconds to shut down the container
+  `SIGTERM`
+* `docker kill container-id`
+`SIGKILL`
   Kill one or more running containers
 
 ### Automatically delete containers when they exit
@@ -100,10 +116,14 @@ The container ID is the hostname that the container displayed.
 * `docker exec -it <name\> <command\>`
 
 * `docker exec -it container_name sh`
+* `docker exec -it container_name bash`
+
+* See environment variables - `docker exec -it [container name] bash`
 
 ## BUILD FROM A DOCKERFILE
 
-* `docker build -t hello-world`
+* `docker build -t hello-world .`
+* Selecciona un archivo concreto para construir la imagen - `docker build -f Dockerfile.dev .`
 
 ## BUILD AN IMAGE
 
@@ -111,3 +131,10 @@ The container ID is the hostname that the container displayed.
   `docker image build --tag $DOCKERID/linux_tweet_app:1.0 .`
   *DockkerID* allow us to store it on Docker Hub
 
+## EXPOSE es solo para documentar qué puerto tiene que mapearse cuando se ejecuta el contenedor
+pero no abre ningún puerto en si mismo.
+[LINK](https://stackoverflow.com/questions/22111060/what-is-the-difference-between-expose-and-publish-in-docker)
+
+## Copiar desde un contenedor al directorio del host
+[LINK](https://medium.com/@mannycodes/deploying-reactjs-with-docker-ac16728c0896)
+`docker cp reactdocker:/etc/nginx/conf.d/default.conf config/default.conf`

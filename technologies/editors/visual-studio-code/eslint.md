@@ -1,5 +1,7 @@
 # HOW TO SETUP ESLINT
 
+* La mejor guía con typescript aparte de la de Ben Awad - Using ESLint and Prettier in a TypeScript Project - [LINK](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
+
 ## Official Documentation - [LINK](https://eslint.org/docs/user-guide/configuring)
 
 ## Begin with this for GLOBAL !!! How to globally set up eslint in vscode - SPEED IT UP - [LINK](https://medium.com/@davidchristophersally/how-to-set-up-eslint-in-vscode-globally-253f25fbaff9)

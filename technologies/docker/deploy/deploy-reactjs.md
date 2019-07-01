@@ -30,7 +30,7 @@ apk add nodejs
 apk add npm
 ```
 
-* Install de dependencies and start de server
+* Install the dependencies and start de server
 
 ```bash
 npm install
