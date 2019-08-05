@@ -138,3 +138,7 @@ pero no abre ningún puerto en si mismo.
 ## Copiar desde un contenedor al directorio del host
 [LINK](https://medium.com/@mannycodes/deploying-reactjs-with-docker-ac16728c0896)
 `docker cp reactdocker:/etc/nginx/conf.d/default.conf config/default.conf`
+
+## DELETE CONTAINERS ( REMOVE )
+
+* Will kill the process if it is running and remove the container, in one step - `docker rm -f container`

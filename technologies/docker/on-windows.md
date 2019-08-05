@@ -19,7 +19,7 @@
 /${PWD}
 `docker run -it --rm -v /${PWD}:/wkDir $IMAGE_TAG yarn dev`
 
-## Para solucionar el problema de que no se actualiza el navegador cuando se hacen cambias en los archivos hay que añadir esta variable de entorno:
+## Para solucionar el problema de que no se actualiza el navegador cuando se hacen cambios en los archivos hay que añadir esta variable de entorno:
 ( También existe una librería que aun no he usado [LINK](https://github.com/merofeev/docker-windows-volume-watcher))
 
 ```bash
@@ -36,3 +36,15 @@
 * [LINK](https://webpack.js.org/configuration/watch/#watchoptions-poll)
 
 * Setting up vscode to use the docker extension with bash for windows as terminal shell - [LINK](https://blogs.msdn.microsoft.com/manibindra/2017/11/01/setting-up-vscode-to-use-the-docker-extension-with-bash-for-windows-as-terminal-shell/)
+
+## Postgres on Windows
+
+* Se tiene que montar un VOLUMEN ( volume ). No se puede montar un directorio del host ( bind mount ) por el tema de permisos.
+
+[VOLUMES](https://docs.docker.com/storage/volumes/)
+
+Run PostgreSQL using Docker with persistent data on Windows 10 - [LINK](http://www.lukaszewczak.com/2016/09/run-postgresql-using-docker-with.html)
+
+Mounting data volume for Postgres in docker for Windows doesn't work - [LINK](https://github.com/docker/for-win/issues/445)
+
+* Dockerize the multi-services application for local development - [LINK](https://dev.to/amplifr/dockerize-the-multi-services-application-for-local-development-2oig)

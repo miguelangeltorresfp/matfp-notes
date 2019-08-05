@@ -47,6 +47,8 @@
 ```
 
 - Install and setup Husky and lint-staged
+[link](https://codeburst.io/continuous-integration-lint-staged-husky-pre-commit-hook-test-setup-47f8172924fc)
+[link](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)
 
 `npm i -D husky lint-staged`
 

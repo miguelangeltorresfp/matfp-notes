@@ -27,3 +27,5 @@
 * GitLab Runner and GitLab CI - [LINK](https://linuxhint.com/gitlab_runner_gitlab_ci/)
 
 * DIGITAL OCEAN - How To Set Up Continuous Integration Pipelines with GitLab CI on Ubuntu 16.04 - [LINK](https://www.digitalocean.com/community/tutorials/how-to-set-up-continuous-integration-pipelines-with-gitlab-ci-on-ubuntu-16-04)
+
+* Configuring .gitlab-ci.yml with AWS EC2 for Continuous Integration (CI) or Continuous Deplyment (CD) - [LINK](https://hackernoon.com/configuring-gitlab-ci-yml-150a98e9765d)

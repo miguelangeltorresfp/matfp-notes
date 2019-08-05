@@ -27,3 +27,14 @@
 ## How to rebuild docker container in docker-compose.yml? [LINK](https://stackoverflow.com/questions/36884991/how-to-rebuild-docker-container-in-docker-compose-yml)
 
 `docker-compose build --no-cache service1 service2`
+`docker-compose up --build --no-cache service1 service2`
+
+* To see what environment variables are available to the web service:
+`docker-compose run web env`
+
+* Attach logs después de haber iniciado los servicios ( en este caso indicando un archivo concreto docker-compose.dev.yml )
+
+```bash
+docker-compose -f docker-compose.dev.yml up -d
+docker-compose -f docker-compose.dev.yml logs -f
+```

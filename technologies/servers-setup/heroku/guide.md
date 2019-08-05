@@ -29,3 +29,5 @@
 ## LOG
 
 * `heroku logs -n 1000 --tail`
+
+* Log para cualquier aplicación incluso dentro de un contenedor - `heroku logs -a <app-name>`

@@ -83,6 +83,10 @@ git push -u origin master
 
 - List branches - `git branch -av`
 
+- Delete a local branch - `git -d <branch-name>`
+
+- Delete a remote branch - `git push <remote_name> --delete <branch_name>`
+
 ---
 
 ## REMOTES
@@ -125,3 +129,8 @@ git push -u origin master
 
 - `git tag v1.0.0`
 - `git push --tags`
+
+## DELETE FOLDERS FROM HISTORY
+
+- [LINK](https://stackoverflow.com/questions/10067848/remove-folder-and-its-contents-from-git-githubs-history)
+- `git filter-branch --tree-filter 'rm -rf node_modules' --prune-empty HEAD`
