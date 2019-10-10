@@ -77,6 +77,13 @@ git push -u origin master
 
 ---
 
+## DISCARD FROM STAGE
+
+- [link](https://stackoverflow.com/questions/4639091/undo-git-add-dir)
+  `git rm --cached -r dir` - To remove a directory and everything inside it from the index ( staged directory )
+
+---
+
 ## BRANCHES
 
 - Create a new branck: `git checkout -b feature_branch_name`

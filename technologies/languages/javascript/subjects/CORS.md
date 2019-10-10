@@ -12,3 +12,7 @@ A Cross-Origin resource fails if it’s:
 ## Alexis Hevia - Using CORS in Express - [LINK](https://medium.com/@alexishevia/using-cors-in-express-cac7e29b005b)
 
 * GITHUB - alexishevia/blogExamples - [LINK](https://github.com/alexishevia/blogExamples/tree/cors)
+
+## Authoritative guide to CORS (Cross-Origin Resource Sharing) for REST APIs
+
+* [link](https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/)

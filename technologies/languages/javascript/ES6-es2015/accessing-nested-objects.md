@@ -57,4 +57,3 @@ const { main } = obj || {}
 ```sh
 const title = obj.main.content.title || 'default title'
 ```
-
