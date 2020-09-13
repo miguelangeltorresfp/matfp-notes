@@ -20,3 +20,9 @@
 ## Entrar al command line con un usuario concreto desde bash
 
 * `psql -U postgres`
+
+## RESTORE BASE DE DATOS
+
+* No funcionaron las variables de entorno con lo que al final tuve que poner la ruta completa del comando:
+  `“C:\Program Files\PostgreSQL\12\bin\pg_restore" --verbose --clean --no-acl --no-owner -h localhost -U postgres -d my_corporate_site data.dump`
+[link](https://sqlbackupandftp.com/blog/how-to-backup-and-restore-postgresql-database)

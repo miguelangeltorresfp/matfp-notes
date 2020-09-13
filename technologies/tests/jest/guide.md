@@ -2,7 +2,51 @@
 
 ## Update snapshots - `npx jest u`
 
-## Solución para el problema de correr jest de forma interactiva cuando lo ejecutas en una app creada con create-react-app
+## CONFIGURATION
+
+### BABEL - babel-jest
+
+* [link](https://jestjs.io/docs/en/tutorial-react)
+
+* Estas serían las dependencias necesarias: `yarn add -D babel-jest @babel/core @babel/preset-env @babel/preset-react`
+
+* Si se instala `babel-jest`, jest automáticamente usará este compilador a menos que se establezan otros preprocesadores en `config.transform`. En este caso para usar `babel-jest` habría que indicarlo explícitamente:
+
+```js
+"transform": {
+  "^.+\\.[t|j]sx?$": "babel-jest"
+},
+```
+
+### babel-jest with typescript
+
+* [link](https://jestjs.io/docs/en/getting-started#using-typescript)
+* [link](https://jestjs.io/docs/en/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object)
+* [link](https://github.com/facebook/jest/tree/master/examples/typescript)
+
+* Para usarlo con typescript se añade esta dependencia: `yarn add --dev @babel/preset-typescript` y se indica su uso en el archivo de configuración de babel:
+
+```js
+// babel.config.js
+module.exports = {
+  presets: [
+    ['@babel/preset-env', {targets: {node: 'current'}}],
++    '@babel/preset-typescript',
+  ],
+};
+```
+
+### ts-jest
+
+* Dependencias: `yarn add -D jest typescript ts-jest @types/jest`
+
+### EJEMPLOS
+
+* [jest/examples/typescript/](https://github.com/facebook/jest/tree/master/examples/typescript)
+
+## CON CREATE-REACT-APP
+
+* Solución para el problema de correr jest de forma interactiva cuando lo ejecutas en una app creada con create-react-app
 
 ```bash
   "scripts": {

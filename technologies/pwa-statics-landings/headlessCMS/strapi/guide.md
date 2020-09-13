@@ -1,2 +1,1 @@
 # STRAPI GUIDE
-

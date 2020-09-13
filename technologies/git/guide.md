@@ -82,6 +82,9 @@ git push -u origin master
 - [link](https://stackoverflow.com/questions/4639091/undo-git-add-dir)
   `git rm --cached -r dir` - To remove a directory and everything inside it from the index ( staged directory )
 
+- [link](https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-staging-area/39454637)
+  `git reset HEAD --`
+
 ---
 
 ## BRANCHES

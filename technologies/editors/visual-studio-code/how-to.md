@@ -16,3 +16,5 @@
 ## Press Ctr + Space to auto import
 
 ## Press Ctr + ñ to toggle terminal window
+
+* SEARCH IN THE CONSOLE => `ALT + C`

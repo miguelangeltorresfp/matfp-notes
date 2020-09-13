@@ -13,3 +13,7 @@
 * yarn install - [LINK](https://yarnpkg.com/en/docs/cli/install)
 
 * Move dependencies to dev-dependencies - `yarn remove <module_name>&yarn add <module_name> --dev` - [LINK](https://stackoverflow.com/questions/46903002/move-a-module-from-devdependencies-to-dependencies-in-npm-package-json)
+
+* Para fijar una versión en un proyecto: 
+  [link](https://github.com/yarnpkg/yarn/issues/7807)
+  `yarn policies set-version 1.18.0`

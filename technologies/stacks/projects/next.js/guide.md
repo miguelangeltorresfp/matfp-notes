@@ -1,5 +1,7 @@
 # NEXT.JS GUIDE
 
+* Ejecutar next.js en otro puerto - package.json - `"dev": "dotenv next -- -p 4000",`
+
 * unicodeveloper/awesome-nextjs - RESOURCES - [LINK](https://github.com/unicodeveloper/awesome-nextjs)
 
 * ⭐️ Simple PWA boilerplate with nextjs 8 and redux https://nextss.now.sh - [LINK](https://github.com/ooade/NextSimpleStarter#development-workflow)

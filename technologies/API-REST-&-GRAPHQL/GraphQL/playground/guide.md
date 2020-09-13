@@ -39,3 +39,78 @@ query getUserBySlug($where: JSON!) {
 
 {"where": { "slug":"miguelangeltorresfp"}}
 ```
+
+* Ejemplo pasando variable de tipo JSON - createPost
+
+```bash
+mutation($title:String, $content:JSON) {
+  createPost(input:{data:{title:$title,content:$content}}) {
+    post {
+      id
+      title
+      slug
+      summary
+      featuredImage {
+        url
+      }
+      content
+      postcategories {
+        name
+        slug
+      }
+      userprofiles{
+        username
+      }
+    }
+  }
+}
+
+VARIABLES
+{
+  "content": {"data": {"username": "migue", "email": "test@gmail.com", "password": "12345678"}}
+}
+```
+
+* Ejemplo createUser
+
+```bash
+mutation($input:createUserInput!) {
+  createUser(input:$input){
+    user{
+      username
+    }
+  }
+}
+
+VARIABLES
+{
+  "input": {"data": {"username": "migue", "email": "test@gmail.com", "password": "12345678"}} 
+}
+```
+
+* Ejemplo con inline fragments
+  [link](https://atheros.ai/blog/how-to-query-your-schema-with-graphql-fragments)
+
+```bash
+query {
+  fashionposts {
+    title
+    content {
+      __typename ...on ComponentFashionpostProductcards {
+        card{
+          title
+        }
+      }
+    }
+    productcards {
+      card {
+        title
+        slogan
+        gallery {
+          url
+        }
+      }
+    }
+  }
+}
+```
